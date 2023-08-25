@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Jacques Francois";
+}
+
+wrapper{
+    margin: 0;
+}
+
+/* Navigation */
+
+.nav-container{
+    background: #F5EEE7;
+    mix-blend-mode: darken;
+    opacity: 0.79;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 74px;
+}
+
+nav {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav .logo{
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #802E2E;
+    justify-content: space-between;
+}
+
+.mercipic img{
+    width:60%;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+
+.nav-items li {
+    margin-top:10px;
+    list-style: none;
+    margin-right: 100px;
+}
+
+.nav-items li:nth-last-of-type(1){
+    margin-right: 20px;
+}
+
+.nav-items li a{
+    font-family: 'Jacques Francois';
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Header + Content */
+
+.header-container{
+    background-image: url("Picfor/aboutus.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 792px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    margin-left: 20px;
+    display:flex;
+}
+
+.company{
+    margin-left: 80px;
+    margin-top: 180px;
+}
+
+.fabric{
+    margin-left:100px;
+}
+
+header h1{
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 90px;
+    
+    color: #FF0000;
+}
+
+header p1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    
+    color: #000000;
+    
+}
+
+header p2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    
+    color: #000000;
+    
+}
+
+
+/* Footer */
+
+.footer{
+    background: #F0E49F;
+    mix-blend-mode: darken;
+    opacity: 0.79;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 120px;
+    
+}
+
+.logo{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tulisan{
+    margin-top: 15px;
+    align-items: center;
+}
+
+.sosmed{
+    margin-top: 15px;
+    margin-right: 30px;
+    display: flex; 
+    justify-content:space-between;
+}
+.twitter{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.hiasan{
+    margin-top: 20px;
+}
+
+.hiasan2{
+    display: flex;
+    margin-top:20px;
+    justify-content: center;
+}
+@media only screen and (max-width:1024px){
+    .wrapper{
+        margin: 0 auto;
+    }
+    .hiasan{
+        display: none;
+    }
+    .nav-items li {
+        margin-top:10px;
+        list-style: none;
+        margin-right: 40px;
+    }
+
+    header h1{
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 90px;
+        
+        color: #FF0000;
+    }
+
+    .fabric img{
+        width: 400px;
+        margin-top: 90px;
+    }
+
+    .company{
+        margin-left: 80px;
+        margin-top: 100px;
+    }
+    header p1{
+        font-size: 19px;
+    }
+    
+    header p2{
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    nav .logo{
+        font-family: 'Jacques Francois';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #802E2E;
+        justify-content: space-between;
+    }
+    .logo p{
+        margin-top:10px;
+    }
+    .logo img{
+        width: 40%;
+    }
+    .nav-items li a{
+        font-family: 'Jacques Francois';
+        font-size: 15px;
+        text-decoration: none;
+        color: #000000;
+    }
+    .search img{
+        display:none;
+    }
+    .fabric img{
+        display:none;
+    }
+    .company{
+        margin-top: 0px;
+    }
+    .tulisan{
+        font-size: 12px;
+    }
+    .twitter{
+        margin: 0px -10px;
+    }
+    .tulisan img{
+        margin-left: -35px;
+        margin-bottom: -3px;
+    }
+    .nav-items{
+        margin-top:10px;
+    }
+
+}
